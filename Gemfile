@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
