@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140117162533) do
+ActiveRecord::Schema.define(version: 20140118093329) do
+
+  create_table "movies", force: true do |t|
+    t.string   "name"
+    t.decimal  "imdb_rating"
+    t.string   "imdb_link"
+    t.boolean  "watched"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "posts", force: true do |t|
     t.string   "title"
